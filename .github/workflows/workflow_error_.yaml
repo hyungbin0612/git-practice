@@ -1,0 +1,9 @@
+name: WOrkflow erroer
+
+on: push
+
+jobs:
+  run:
+    run-on: ubuntu-lates
+    steps:
+      - run: date
